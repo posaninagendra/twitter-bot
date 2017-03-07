@@ -1,6 +1,6 @@
 # A simple twitter bot
 
-Using Tweepy:
+## Using Tweepy:
 1. Access Twitter APIs
 2. Search for tweets with a query
 3. Reply to the tweets of the query with a custom message. 
