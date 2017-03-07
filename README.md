@@ -12,7 +12,7 @@ This bot helps you to reply with custom messages to particular topic by searchin
 ### How to use it?
 1. Create a twitter account if doesn't exit
 2. Create a twitter app at [apps@twitter](apps.twitter.com)
-3. Generate access keys for the app and use these keys with customer keys to fill the keys dictionary in keys.py
+3. Generate access tokens for the app and use these tokens with customer tokens to fill the keys dictionary in keys.py
 4. Modify bot.py by changing the query stirng to search for a particular topic
 5. Modify the custome message to write your message
 6. Run: $python bot.py
