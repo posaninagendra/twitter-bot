@@ -14,13 +14,13 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
-query = "baahubali 2"
+query = " "
 
 tweet_lists = api.search(q=query, count=20, lang="en")
 
 for tweet in tweet_lists:
 	screenname = tweet.user.screen_name
-	message = ".@{username} {message}".format(username=screenname, message='Awaiting the sequel of magnumopus creation of @ssrajamouli #baahubali2 #wkkb')
+	message = ".@{username} {message}".format(username=screenname, message=' ')
 	try:
 		api.update_status(status=message, in_reply_to_status_id=tweet.id)
 		print message
